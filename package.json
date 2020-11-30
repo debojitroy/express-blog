@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "mocha tests"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "pug": "^3.0.0"
+    "express": "4.16.2",
+    "pug": "2.0.0-rc.4",
+    "stylus": "0.54.5"
   },
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "mocha": "^4.0.1",
-    "superagent": "^3.8.0"
+    "expect.js": "0.3.1",
+    "mocha": "4.0.1",
+    "superagent": "3.8.0"
   }
 }
